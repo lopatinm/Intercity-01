@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_baseline_lock_24"
+            android:title="Авторизация" />
+        <item
+            android:id="@+id/nav_registration"
+            android:icon="@drawable/ic_baseline_assignment_ind_24"
+            android:title="@string/menu_registration" />
+        <item
+            android:id="@+id/nav_profile_dispatcherprofile"
+            android:icon="@drawable/ic_baseline_wysiwyg_24"
+            android:title="Личный кабинет" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_baseline_local_taxi_24"
+            android:title="Заказать" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Выйти" />
+    </group>
+</menu>

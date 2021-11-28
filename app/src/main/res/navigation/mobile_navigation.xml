@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.lopatinm.intercity.ui.home.HomeFragment"
+        android:label="Главная"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.lopatinm.intercity.ui.login.LoginFragment"
+        android:label="Авторизация"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_registration"
+        android:name="com.lopatinm.intercity.ui.registration.RegistrationFragment"
+        android:label="@string/menu_registration"
+        tools:layout="@layout/fragment_registration" />
+
+    <fragment
+        android:id="@+id/nav_registration_user"
+        android:name="com.lopatinm.intercity.ui.registration.UserFragment"
+        android:label="@string/menu_registration"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/nav_registration_driver"
+        android:name="com.lopatinm.intercity.ui.registration.DriverFragment"
+        android:label="@string/menu_registration"
+        tools:layout="@layout/fragment_driver" />
+
+    <fragment
+        android:id="@+id/nav_registration_dispatcher"
+        android:name="com.lopatinm.intercity.ui.registration.DispatcherFragment"
+        android:label="@string/menu_registration"
+        tools:layout="@layout/fragment_dispatcher" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.lopatinm.intercity.ui.profile.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.lopatinm.intercity.ui.order.OrderFragment"
+        android:label="Заказ"
+        tools:layout="@layout/fragment_order" />
+
+    <fragment
+        android:id="@+id/nav_order_getorder"
+        android:name="com.lopatinm.intercity.ui.order.GetorderFragment"
+        android:label="Заказать"
+        tools:layout="@layout/fragment_getorder" />
+
+    <fragment
+        android:id="@+id/nav_order_orderuser"
+        android:name="com.lopatinm.intercity.ui.order.OrderuserFragment"
+        android:label="Мои заказы"
+        tools:layout="@layout/fragment_orderuser" />
+
+    <fragment
+        android:id="@+id/nav_order_hitchhiking"
+        android:name="com.lopatinm.intercity.ui.order.HitchhikingFragment"
+        android:label="Попутки"
+        tools:layout="@layout/fragment_hitchhiking" />
+
+    <fragment
+        android:id="@+id/nav_profile_dispatcherprofile"
+        android:name="com.lopatinm.intercity.ui.profile.DispatcherprofileFragment"
+        android:label="Личный кабинет"
+        tools:layout="@layout/fragment_dispatcherprofile" />
+</navigation>
